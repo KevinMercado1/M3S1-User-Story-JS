@@ -9,7 +9,7 @@ if (isNaN(age)) {
 } else if (age >= 18) {
   //Here is the conditional statement that says if they are of legal age.//
   alert(
-    `Hello ${userName}, you have  ${age} years old and you're  of legal age. Get ready for great opportunities!`
+    `Hello ${userName}, you are  ${age} years old and you're  of legal age. Get ready for great opportunities!`
   );
 } else {
   //Here is the conditional statement that is executed if the user is a minor.//
