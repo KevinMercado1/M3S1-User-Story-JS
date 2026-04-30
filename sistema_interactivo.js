@@ -1,19 +1,19 @@
-// En este apartado está las constantes definidas//
-const userName = prompt('Cúal es tú nombre?:', '').trim();
-const age = Number(prompt('Cuantos años tienes?:', '').trim());
+// This section contains the defined constants//
+const userName = prompt('What is your Name? :', '').trim();
+const age = Number(prompt('How old are you? :', '').trim());
 
-// Aquí va los condicionales que hacen preguntar la edad del cliente.//
+//Here are the conditionals that ask for the customer's age.//
 if (isNaN(age)) {
-  console.error('Por favor, deben ser NUMEROS!');
-  alert('Error: Debes ingresar un número para la edad.');
+  console.error('Please, must be numbers.');
+  alert('Error: You must enter a number for age.');
 } else if (age >= 18) {
-  //Aquí esta el condicional que hace sí es MAYOR de edad.//
+  //Here is the conditional statement that says if they are of legal age.//
   alert(
-    `Hola ${userName}, tienes ${age} años y eres mayor de edad. ¡Prepárate para grandes oportunidades!`
+    `Hello ${userName}, you have  ${age} years old and you're  of legal age. Get ready for great opportunities!`
   );
 } else {
-  //Aquí está el condicional que se ejecuta si es MENOR de edad.//
+  //Here is the conditional statement that is executed if the user is a minor.//
   alert(
-    `Hola ${userName}, tienes ${age} años y eres menor de edad. ¡Sigue aprendiendo!`
+    `Hello ${userName}, you are ${age} years old and you are a minor. Keep learning!`
   );
 }
